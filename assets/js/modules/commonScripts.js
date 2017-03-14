@@ -12,6 +12,7 @@ module.exports = function() {
 
   var jQueryBridget = require('jquery-bridget');
   var bootstrap = require('bootstrap-sass');
+  var xeditable = require('../../../node_modules/X-editable/dist/jqueryui-editable/js/jqueryui-editable.js');
   var metismenu = require('metismenu');
   var slimscroll = require('slimscroll');
   var flot = require('flot');
