@@ -29,7 +29,7 @@ var maps = require('gulp-sourcemaps');
 var sequence = require('gulp-sequence');
 var rev = require('gulp-rev');
 var mediaQuery = require('gulp-group-css-media-queries');
-
+var riot = require('riot');
 var riotify    = require('riotify');
 
 
