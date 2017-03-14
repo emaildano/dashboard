@@ -11,6 +11,7 @@
 var commonScripts = require('commonScripts.js');
 var inspiniaScripts = require('inspiniaScripts.js');
 var demoScripts = require('demoScripts.js');
+var tagScripts = require('tagScripts.js');
 
 var Shifter = {
   // All pages

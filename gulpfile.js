@@ -30,6 +30,7 @@ var sequence = require('gulp-sequence');
 var rev = require('gulp-rev');
 var mediaQuery = require('gulp-group-css-media-queries');
 
+var riotify    = require('riotify');
 
 
 /**
@@ -52,6 +53,7 @@ var dist_base = client + './dist/';
 
 /** Base (entry) paths */
 var base = {
+  'tags':      enter + 'tags/*.tag',
   'img':       enter + 'images/**/*',
   'fonts':     enter + 'fonts/**/*',
   'sass':      enter + 'sass',
@@ -69,7 +71,8 @@ var dest = {
   'js': {
     'all':    src_base + 'js/',
     'single': src_base + 'js/single',
-    'vendor': dist_base + 'js/vendor'
+    'vendor': dist_base + 'js/vendor',
+    'tags':   dist_base + 'js/tags'
   },
   'img':      dist_base + 'images/',
   'fonts':    dist_base + 'fonts/'
@@ -181,7 +184,7 @@ var b = function() {
     debug: true,
     cache: {},
     paths: ['./node_modules', base.js.modules]
-  });
+  }).transform(riotify, {});
 };
 
 /** Watchify Bundler */

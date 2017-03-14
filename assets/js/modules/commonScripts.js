@@ -22,6 +22,7 @@ module.exports = function() {
   var sparkline = require('jquery-sparkline');
   var chartjs = require('chart.js');
   var toastr = require('toastr');
+  var sweetalert = require('sweetalert');
 
 
   /**
