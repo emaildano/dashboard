@@ -2,7 +2,7 @@
  * CONFIGURATION VARIABLES
  *
  */
-var devUrl = 'shifter-userconsole.dev';
+var devUrl = 'shifter-userconsole.dev:8080';
 
 
 
@@ -45,9 +45,10 @@ var production = argv.production;
  */
 
 /** Paths */
+var client    = './client/';
 var enter     = './assets/';
-var src_base  = './src/';
-var dist_base = './dist/';
+var src_base  = client + './src/';
+var dist_base = client + './dist/';
 
 /** Base (entry) paths */
 var base = {
@@ -86,9 +87,6 @@ var dest = {
 gulp.task('clean', function() {
   del([src_base, dist_base]);
 });
-
-
-
 
 
 /**

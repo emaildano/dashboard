@@ -1,21 +1,22 @@
 {
-  "name": "apollo",
+  "name": "shifter",
   "version": "1.0.0",
-  "description": "Gulpfile for the Apollo boilerplate",
+  "description": "Gulpfile for the Shifter user console",
   "main": "gulpfile.js",
   "scripts": {
-    "postinstall": "gulp"
+    "postinstall": "gulp",
+    "start": "http-server ./client -a shifter-userconsole.dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/j2made/apollo.git"
+    "url": "git+https://github.com/megumiteam/shifter-userconsole.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/j2made/apollo/issues"
+    "url": "https://github.com/megumiteam/shifter-userconsole/issues"
   },
-  "homepage": "https://github.com/j2made/apollo#readme",
+  "homepage": "https://github.com/megumiteam/shifter-userconsole#readme",
   "devDependencies": {
     "animate.css": "^3.5.2",
     "babelify": "^7.2.0",
@@ -49,6 +50,7 @@
     "gulp-sourcemaps": "^2.0.0-alpha",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
+    "http-server": "^0.9.0",
     "imagemin-pngquant": "^5.0.0",
     "jquery-bridget": "^2.0.1",
     "jquery-sparkline": "^2.4.0",
