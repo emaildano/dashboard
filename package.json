@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "postinstall": "gulp",
-    "start": "http-server ./client -a shifter-userconsole.dev"
+    "start": "http-server ./client -a shifter-userconsole.dev",
+    "sls": "sls"
   },
   "repository": {
     "type": "git",
