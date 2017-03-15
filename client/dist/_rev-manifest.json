@@ -1,4 +1,6 @@
 {
   "css/main.min.css": "css/main-70ea809ada.min.css",
-  "js/bundle.js": "js/bundle-46d3a06f89.js"
+  "js/bundle.js": "js/bundle-46d3a06f89.js",
+  "js/single/awscognito.min.js": "js/single/awscognito-93786bc26c.min.js",
+  "js/single/riotcompile.min.js": "js/single/riotcompile-e9016b4d7d.min.js"
 }
