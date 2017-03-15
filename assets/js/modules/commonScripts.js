@@ -26,6 +26,7 @@ module.exports = function() {
   var sweetalert = require('sweetalert');
   var ladda = require('ladda');
   var moment = require('moment');
+  var sjcl = require('sjcl');
 
 
   /**
