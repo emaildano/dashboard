@@ -16,7 +16,7 @@ module.exports = function() {
   var metismenu = require('metismenu');
   var slimscroll = require('slimscroll');
   var flot = require('flot');
-  var jqueryUI = require('jquery-ui');
+  var jqueryUI = require('jquery-ui-browserify');
   var peity = require('peity');
   var pace = require('pace');
   var gritter = require('../../../node_modules/gritter/js/jquery.gritter.js');
@@ -27,7 +27,7 @@ module.exports = function() {
   var ladda = require('ladda');
   var moment = require('moment');
   var sjcl = require('sjcl');
-
+  var jsbn = require('jsbn');
 
   /**
    * Bridget for needy plugins
