@@ -1,12 +1,15 @@
 riot.compile(function() {
-  riot.mount('*')
+
+  riot.mount('*');
+
   var
     Route = riot.router.Route,
     DefaultRoute = riot.router.DefaultRoute,
     NotFoundRoute = riot.router.NotFoundRoute,
-    RedirectRoute = riot.router.RedirectRoute
+    RedirectRoute = riot.router.RedirectRoute;
 
-  riot.router.use(securityFilter)
+  riot.router.use(securityFilter);
+
   riot.router.routes([
     new DefaultRoute({
       tag: 'login'
@@ -62,6 +65,8 @@ riot.compile(function() {
     new NotFoundRoute({
       tag: 'not-found'
     }),
-  ])
-  riot.router.start()
-})
+  ]);
+
+  riot.router.start();
+
+});
