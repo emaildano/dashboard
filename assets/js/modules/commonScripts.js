@@ -28,6 +28,7 @@ module.exports = function() {
   var moment = require('moment');
   var sjcl = require('sjcl');
   var jsbn = require('jsbn');
+  var superagent = require('superagent');
 
   /**
    * Bridget for needy plugins
