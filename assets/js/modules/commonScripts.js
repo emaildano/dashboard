@@ -29,6 +29,7 @@ module.exports = function() {
   var sjcl = require('sjcl');
   var jsbn = require('jsbn');
   var superagent = require('superagent');
+  var es6promise = require('es6-promise');
 
   /**
    * Bridget for needy plugins
