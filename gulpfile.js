@@ -31,6 +31,7 @@ var rev = require('gulp-rev');
 var mediaQuery = require('gulp-group-css-media-queries');
 var riot = require('riot');
 var riotify    = require('riotify');
+var babelify = require('babelify')
 
 
 /**
@@ -184,7 +185,15 @@ var b = function() {
     debug: true,
     cache: {},
     paths: ['./node_modules', base.js.modules]
-  }).transform(riotify, {});
+  }).transform(
+    riotify, {
+      // riotify options
+    },
+    babelify, {
+      presets: ['es2015'],
+      compact: false
+    }
+  );
 };
 
 /** Watchify Bundler */
