@@ -25,7 +25,7 @@ module.exports = function() {
   var toastr = require('toastr');
   var sweetalert = require('sweetalert');
   var ladda = require('ladda');
-  var riotCompile = require('riot-compiler');
+  var moment = require('moment');
 
 
   /**
