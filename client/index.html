@@ -29,12 +29,38 @@
 
   <!-- Riot JS -->
   <route></route>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.min.js"></script>
-  <script src="//gabrielmoreira.github.io/riot-router/examples/node_modules/riot-router/lib/router.js"></script>
+  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.min.js'></script>
+  <script type='text/javascript' src='//gabrielmoreira.github.io/riot-router/examples/node_modules/riot-router/lib/router.js'></script>
+  <!-- <script src="js/tags.js" type="riot/tag"></script> -->
+  <script type='text/javascript' src='src/js/single/riot.compile.min.js'></script>
 
   <!-- Main JS -->
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js?ver=3.1.1'></script>
   <script type='text/javascript' src='src/js/bundle.js'></script>
+
+  <!-- Mautic -->
+  <script>
+    (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+        w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+        m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://marketing.amimoto-ami.com/mtc.js','mt');
+
+    mt('send', 'pageview');
+    var image =
+      'font-size: 0px;' +
+      'line-height: 120px;' +
+      'padding: 40px 40px;' +
+      'background: url("https://go.getshifter.io/img/shifter_logo_ds_close@2x.png") no-repeat center center;';
+    var base =
+      'font-family: "Verdana";' +
+      'font-size: 40px;' +
+      'color: #000;' +
+      'background-color: #fff;' +
+      'padding: 0px 20px;' +
+      'line-height: 100px;';
+
+    console.log("%c+%cHi, I’m Shifter", image, base);
+  </script>
 
   <!-- Zendesk -->
   <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","getshifter.zendesk.com");
