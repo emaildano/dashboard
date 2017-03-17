@@ -8,6 +8,6 @@ module.exports = function() {
     /**
      * Tags
      */
-    var error404 = require('../../tags/404.tag');
+    // var error404 = require('../../tags/404.tag');
 
 };
