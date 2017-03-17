@@ -10,7 +10,6 @@ module.exports = function() {
    * Plugins
    */
 
-  var $ = require('jquery');
   var jQueryBridget = require('jquery-bridget');
   var bootstrap = require('bootstrap-sass');
   var slimscroll = require('slimscroll');
@@ -22,21 +21,20 @@ module.exports = function() {
   var gritter = require('../../../node_modules/gritter/js/jquery.gritter.js');
   var sparkline = require('jquery-sparkline');
   var chartjs = require('chart.js');
-  var toastr = require('toastr');
+  // var Toastr = require('toastr');
   var sweetalert = require('sweetalert');
-  var ladda = require('ladda');
+  // var ladda = require('ladda');
   var moment = require('moment');
   var sjcl = require('sjcl');
   var jsbn = require('jsbn');
   var superagent = require('superagent');
   var es6promise = require('es6-promise').polyfill();
 
-
   /**
    * Bridget for needy plugins
    */
 
-  jQueryBridget('slimScroll', slimscroll, $);
+  jQueryBridget('slimScroll', slimscroll);
 
 
   /**

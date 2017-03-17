@@ -26,22 +26,28 @@
 
 <body>
 
-  <!-- AWS JS -->
-  <script type='text/javascript' src='//cdn.rawgit.com/aws/amazon-cognito-identity-js/b7745ceb/dist/aws-cognito-sdk.min.js'></script>
-  <script type='text/javascript' src='//cdn.rawgit.com/aws/amazon-cognito-identity-js/b7745ceb/dist/amazon-cognito-identity.min.js'></script>
-  <script type='text/javascript' src='//sdk.amazonaws.com/js/aws-sdk-2.3.5.min.js'></script>
+  <!-- jQuery -->
+  <script src='//code.jquery.com/jquery-2.2.4.min.js' integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=' crossorigin='anonymous'></script>
 
   <!-- Riot JS -->
   <route></route>
   <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/riot/2.3.18/riot+compiler.min.js'></script>
   <script type='text/javascript' src='//gabrielmoreira.github.io/riot-router/examples/node_modules/riot-router/lib/router.js'></script>
+  <script type='riot/tag' src='js/tags.js'></script>
+
+  <!-- AWS JS -->
+  <script type='text/javascript' src='//cdn.rawgit.com/aws/amazon-cognito-identity-js/b7745ceb/dist/aws-cognito-sdk.min.js'></script>
+  <script type='text/javascript' src='//cdn.rawgit.com/aws/amazon-cognito-identity-js/b7745ceb/dist/amazon-cognito-identity.min.js'></script>
+  <script type='text/javascript' src='//sdk.amazonaws.com/js/aws-sdk-2.3.5.min.js'></script>
+
+  <!-- Temp / Hotfix JS -->
+  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.0/spin.min.js'></script>
+  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.0/ladda.min.js'></script>
+  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/Ladda/1.0.0/ladda.jquery.min.js'></script>
+  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js'></script>
 
   <!-- Main JS -->
-  <script src='//code.jquery.com/jquery-2.2.4.min.js' integrity='sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=' crossorigin='anonymous'></script>
   <script type='text/javascript' src='src/js/bundle.js'></script>
-
-  <!-- Legacy JS -->
-  <!-- <script type='text/javascript' src='src/js/single/legacyScripts.min.js'></script> -->
 
   <!-- Mautic -->
   <script>
