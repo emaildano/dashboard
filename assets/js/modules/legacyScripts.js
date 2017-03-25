@@ -22,6 +22,7 @@ module.exports = function() {
     };
   }
 
+  
   var userPool = new AWSCognito.CognitoIdentityServiceProvider.CognitoUserPool(poolData);
   var cognitoUser = userPool.getCurrentUser();
   var request = window.superagent;

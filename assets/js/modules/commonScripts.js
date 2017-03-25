@@ -26,8 +26,8 @@ module.exports = function() {
   var sweetalert = require('sweetalert');
   var ladda = require('ladda');
   var moment = require('moment');
-  var sjcl = require('sjcl');
-  var jsbn = require('jsbn');
+  // var sjcl = require('sjcl');
+  // var jsbn = require('jsbn');
   var superagent = require('superagent');
   var es6promise = require('es6-promise');
 
