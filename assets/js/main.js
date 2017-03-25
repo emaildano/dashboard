@@ -11,7 +11,7 @@
 var commonScripts = require('commonScripts.js');
 var inspiniaScripts = require('inspiniaScripts.js');
 var demoScripts = require('demoScripts.js');
-var riotScripts = require('riotScripts.js');
+var legacyScripts = require('legacyScripts.js');
 
 var Shifter = {
   // All pages
@@ -21,7 +21,7 @@ var Shifter = {
       commonScripts();
       inspiniaScripts();
       demoScripts();
-      riotScripts();
+      legacyScripts();
     },
     finalize: function() {
       // JavaScript to be fired on all pages, after page specific JS is fired

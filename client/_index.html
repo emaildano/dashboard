@@ -9,8 +9,46 @@
     <title>Shifter</title>
     <script src="//code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/jQueryUI/jquery-ui.css" rel="stylesheet">
+
+    <link href="css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="css/plugins/dropzone/dropzone.css" rel="stylesheet">
+
+    <!-- Sweet Alert -->
+    <link href="css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+
+    <!-- Ladda style -->
+    <link href="css/plugins/ladda/ladda-themeless.min.css" rel="stylesheet">
+
+    <!-- Toastr -->
+    <script src="js/plugins/toastr/toastr.min.js"></script>
+
+    <!-- Toastr style -->
+    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+
+    <!-- Gritter -->
+    <link href="js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="css/login.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="img/favicon.ico">
+
+  	<script src="//cdnjs.cloudflare.com/ajax/libs/cryptico/0.0.1343522940/jsbn.js"></script>
+    <script src="js/jsbn2.js"></script>
+    <script src="js/sjcl.js"></script>
+  	<script src="js/aws-cognito-sdk.min.js"></script>
+    <script src="js/amazon-cognito-identity.min.js"></script>
+    <script src="//sdk.amazonaws.com/js/aws-sdk-2.3.5.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/superagent/1.2.0/superagent.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/es6-promise/4.0.2/es6-promise.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js"></script>
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jqueryui-editable/css/jqueryui-editable.css" rel="stylesheet"/>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -361,7 +399,8 @@
         console.log("%c+%cHi, I’m Shifter", image, base);
     </script>
 
-    <!-- Start of getshifter Zendesk Widget script --> d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","getshifter.zendesk.com");
+    <!-- Start of getshifter Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","getshifter.zendesk.com");
     /*]]>*/</script>
     <!-- End of getshifter Zendesk Widget script -->
 </html>
