@@ -11,7 +11,6 @@
 var commonScripts = require('commonScripts.js');
 var inspiniaScripts = require('inspiniaScripts.js');
 var demoScripts = require('demoScripts.js');
-var legacyScripts = require('legacyScripts.js');
 
 var Shifter = {
   // All pages
@@ -19,9 +18,8 @@ var Shifter = {
     init: function() {
       // JavaScript to be fired on all pages
       commonScripts();
-      inspiniaScripts();
-      demoScripts();
-      legacyScripts();
+      // inspiniaScripts();
+      // demoScripts();
     },
     finalize: function() {
       // JavaScript to be fired on all pages, after page specific JS is fired

@@ -58,7 +58,7 @@ this.on('mount', function() {
     });
 
     // Run menu of canvas
-    $('body.canvas-menu .sidebar-collapse').slimScroll({
+    $('body.canvas-menu .sidebar-collapse').slimscroll({
         height: '100%',
         railOpacity: 0.9
     });
@@ -69,7 +69,7 @@ this.on('mount', function() {
     });
 
     // Initialize slimscroll for right sidebar
-    $('.sidebar-container').slimScroll({
+    $('.sidebar-container').slimscroll({
         height: '100%',
         railOpacity: 0.4,
         wheelStep: 10
@@ -82,7 +82,7 @@ this.on('mount', function() {
     });
 
     // Initialize slimscroll for small chat
-    $('.small-chat-box .content').slimScroll({
+    $('.small-chat-box .content').slimscroll({
         height: '234px',
         railOpacity: 0.4
     });
@@ -151,7 +151,7 @@ this.on('mount', function() {
     // Fixed Sidebar
     $(window).bind("load", function () {
         if ($("body").hasClass('fixed-sidebar')) {
-            $('.sidebar-collapse').slimScroll({
+            $('.sidebar-collapse').slimscroll({
                 height: '100%',
                 railOpacity: 0.9
             });
@@ -206,7 +206,7 @@ $(document).ready(function () {
 
         if (fixedsidebar == 'on') {
             body.addClass('fixed-sidebar');
-            $('.sidebar-collapse').slimScroll({
+            $('.sidebar-collapse').slimscroll({
                 height: '100%',
                 railOpacity: 0.9
             });

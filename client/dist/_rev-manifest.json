@@ -1,5 +1,5 @@
 {
-  "css/main.min.css": "css/main-d41d8cd98f.min.css",
-  "js/bundle.js": "js/bundle-ae1e850444.js",
-  "js/single/riotScripts.min.js": "js/single/riotScripts-2f896a8695.min.js"
+  "css/main.min.css": "css/main-502d15fd79.min.css",
+  "js/bundle.js": "js/bundle-281e1a0821.js",
+  "js/single/legacyScripts.min.js": "js/single/legacyScripts-9cf2a2b872.min.js"
 }

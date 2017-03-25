@@ -18,23 +18,23 @@ module.exports = function() {
   var peity = require('peity');
   var pace = require('pace');
   var bootstrap = require('bootstrap-sass');
-  var metismenu = require('metismenu');
+  // var metismenu = require('metismenu');
   var gritter = require('../../../node_modules/gritter/js/jquery.gritter.js');
   var sparkline = require('jquery-sparkline');
   var chartjs = require('chart.js');
-  var toastr = require('toastr');
+  // var toastr = require('toastr');
   var sweetalert = require('sweetalert');
   var ladda = require('ladda');
-  var moment = require('moment');
+  // var moment = require('moment');
   // var sjcl = require('sjcl');
   // var jsbn = require('jsbn');
-  var superagent = require('superagent');
+  // var superagent = require('superagent');
   var es6promise = require('es6-promise');
 
   /**
    * Bridget for needy plugins
    */
 
-  jQueryBridget('slimScroll', slimscroll, $);
+  jQueryBridget('slimscroll', slimscroll, $);
 
 };

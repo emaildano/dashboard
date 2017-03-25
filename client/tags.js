@@ -2609,7 +2609,7 @@ this.on('mount', function() {
         SmoothlyMenu();
     });
 
-    $('body.canvas-menu .sidebar-collapse').slimScroll({
+    $('body.canvas-menu .sidebar-collapse').slimscroll({
         height: '100%',
         railOpacity: 0.9
     });
@@ -2618,7 +2618,7 @@ this.on('mount', function() {
         $('#right-sidebar').toggleClass('sidebar-open');
     });
 
-    $('.sidebar-container').slimScroll({
+    $('.sidebar-container').slimscroll({
         height: '100%',
         railOpacity: 0.4,
         wheelStep: 10
@@ -2629,7 +2629,7 @@ this.on('mount', function() {
         $('.small-chat-box').toggleClass('active');
     });
 
-    $('.small-chat-box .content').slimScroll({
+    $('.small-chat-box .content').slimscroll({
         height: '234px',
         railOpacity: 0.4
     });
@@ -2684,7 +2684,7 @@ this.on('mount', function() {
 
     $(window).bind("load", function () {
         if ($("body").hasClass('fixed-sidebar')) {
-            $('.sidebar-collapse').slimScroll({
+            $('.sidebar-collapse').slimscroll({
                 height: '100%',
                 railOpacity: 0.9
             });
@@ -2734,7 +2734,7 @@ $(document).ready(function () {
 
         if (fixedsidebar == 'on') {
             body.addClass('fixed-sidebar');
-            $('.sidebar-collapse').slimScroll({
+            $('.sidebar-collapse').slimscroll({
                 height: '100%',
                 railOpacity: 0.9
             });

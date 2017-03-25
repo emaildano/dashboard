@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "postinstall": "gulp",
-    "start": "http-server ./client",
+    "start": "http-server ./client -p 9000",
     "sls": "sls"
   },
   "repository": {
