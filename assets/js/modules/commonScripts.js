@@ -31,10 +31,6 @@ module.exports = function() {
   var superagent = require('superagent');
   var es6promise = require('es6-promise');
 
-  // Needs some TLC
-  // var awsCognitoSDK = require('../../../node_modules/amazon-cognito-identity-js/dist/aws-cognito-sdk.js');
-  // var awsCognito = require('amazon-cognito-identity-js');
-
   /**
    * Bridget for needy plugins
    */

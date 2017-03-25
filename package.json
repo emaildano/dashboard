@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "postinstall": "gulp",
-    "start": "http-server ./client -a shifter-userconsole.dev",
+    "start": "http-server ./client",
     "sls": "sls"
   },
   "repository": {
@@ -84,7 +84,6 @@
     "lodash.assign": "^4.0.6",
     "metismenu": "^2.7.0",
     "mocha": "^3.1.2",
-    "moment": "^2.17.1",
     "netlify-cli": "^1.1.0",
     "pace": "git://github.com/HubSpot/pace.git#c825990",
     "peity": "^3.2.1",
@@ -110,7 +109,7 @@
     "aws-sdk": "^2.6.15",
     "js-yaml": "^3.7.0",
     "jwt-simple": "^0.5.1",
-    "moment": "^2.15.2",
+    "moment": "^2.17.1",
     "netlify": "^1.2.0",
     "riot": "^2.6.4",
     "uuid": "^3.0.0"

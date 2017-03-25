@@ -2,7 +2,7 @@
  * CONFIGURATION VARIABLES
  *
  */
-var devUrl = 'shifter-userconsole.dev:8080';
+var devUrl = '127.0.0.1:8080';
 
 
 
