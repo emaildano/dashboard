@@ -5,53 +5,53 @@
 // VAR ORDERRIDES
 // =============================================================================
 
-// $fa-font-path: '/dist/fonts' !default; // FontAwesome
+$fa-font-path: '/dist/fonts' !default; // FontAwesome
 
 
 // VENDORS
 // =============================================================================
 
-// @charset 'UTF-8';
-// @import '../../../node_modules/sanitize.css/sanitize';
-// @import '../../../node_modules/bourbon-neat/core/neat';
-// @import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
-// @import '../../../node_modules/font-awesome/scss/font-awesome';
-// @import '../../../node_modules/toastr/toastr';
-// @import '../../../node_modules/gritter/css/jquery.gritter';
-// @import '../../../node_modules/animate.css/animate';
-// @import '../../../node_modules/sweetalert/dist/sweetalert';
-// @import '../../../node_modules/ladda/css/ladda';
-// @import '../../../node_modules/X-editable/dist/jqueryui-editable/css/jqueryui-editable';
+@charset 'UTF-8';
+@import '../../../node_modules/sanitize.css/sanitize';
+@import '../../../node_modules/bourbon-neat/core/neat';
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../../node_modules/font-awesome/scss/font-awesome';
+@import '../../../node_modules/toastr/toastr';
+@import '../../../node_modules/gritter/css/jquery.gritter';
+@import '../../../node_modules/animate.css/animate';
+@import '../../../node_modules/sweetalert/dist/sweetalert';
+@import '../../../node_modules/ladda/css/ladda';
+@import '../../../node_modules/X-editable/dist/jqueryui-editable/css/jqueryui-editable';
 // @import '../../../node_modules/jquery-ui-browserify/themes/base/jquery.ui.all';
-// @import '../../../node_modules/dropzone/dist/dropzone';
-// @import '../../../node_modules/dropzone/dist/basic';
+@import '../../../node_modules/dropzone/dist/dropzone';
+@import '../../../node_modules/dropzone/dist/basic';
 
 
 // THEME STYLES
 // =============================================================================
 
 // // Google Fonts
-// @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 //
 // // Variables, Mixins
-// @import '../partials/variables';
-// @import '../partials/mixins';
+@import '../partials/variables';
+@import '../partials/mixins';
 //
 // // INSPINIA Theme Elements
-// @import '../partials/typography';
-// @import '../partials/navigation';
-// @import '../partials/top_navigation';
-// @import '../partials/buttons';
-// @import '../partials/badgets_labels';
-// @import '../partials/elements';
-// @import '../partials/sidebar';
-// @import '../partials/base';
-// @import '../partials/pages';
-// @import '../partials/chat';
-// @import '../partials/metismenu';
-// @import '../partials/spinners';
-//
-// // Landing page styles
+@import '../partials/typography';
+@import '../partials/navigation';
+@import '../partials/top_navigation';
+@import '../partials/buttons';
+@import '../partials/badgets_labels';
+@import '../partials/elements';
+@import '../partials/sidebar';
+@import '../partials/base';
+@import '../partials/pages';
+@import '../partials/chat';
+@import '../partials/metismenu';
+@import '../partials/spinners';
+
+// Landing page styles
 // @import '../partials/landing';
 //
 // // RTL Support
