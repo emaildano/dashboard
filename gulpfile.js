@@ -29,9 +29,10 @@ var maps = require('gulp-sourcemaps');
 var sequence = require('gulp-sequence');
 var rev = require('gulp-rev');
 var mediaQuery = require('gulp-group-css-media-queries');
-var riot = require('riot');
-var riotify    = require('riotify');
-var babelify = require('babelify')
+var babelify = require('babelify');
+
+// var riot    = require('gulp-riot');
+var riotify = require('riotify');
 
 
 /**
@@ -187,7 +188,7 @@ var b = function() {
     paths: ['./node_modules', base.js.modules]
   }).transform(
     riotify, {
-      // riotify options
+      // Options
     },
     babelify, {
       presets: ['es2015'],
@@ -307,6 +308,18 @@ gulp.task('copy_fonts', function () {
 });
 
 
+/**
+ * RIOT
+ *
+ * TK
+ */
+gulp.task('build_tags', function () {
+  browserify({ entries: ['./tags/**/*.tag'] })
+  .transform(riotify, {})
+  .bundle()
+  .pipe(source('app.js'))
+  .pipe(gulp.dest('./client/src/tags'));
+});
 
 
 
@@ -338,6 +351,7 @@ gulp.task('serve', ['watch_bundle', 'build_sass'], function(){
   gulp.watch([base.img], ['build_images']);
   gulp.watch('**/*.php', ['watch_reload']);
   gulp.watch('**/*.html', ['watch_reload']);
+  gulp.watch(['./tags/**/*.tag'], ['build_tags']);
 });
 
 

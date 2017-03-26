@@ -88,6 +88,7 @@
     "pace": "git://github.com/HubSpot/pace.git#c825990",
     "peity": "^3.2.1",
     "proxyquire": "^1.7.10",
+    "riot": "^2.6.7",
     "riot-compiler": "^3.2.1",
     "riotify": "^2.0.0",
     "sanitize.css": "^4.1.0",
