@@ -308,18 +308,6 @@ gulp.task('copy_fonts', function () {
 });
 
 
-/**
- * RIOT
- *
- * TK
- */
-gulp.task('build_tags', function () {
-  browserify({ entries: ['./tags/**/*.tag'] })
-  .transform(riotify, {})
-  .bundle()
-  .pipe(source('app.js'))
-  .pipe(gulp.dest('./client/src/tags'));
-});
 
 
 
