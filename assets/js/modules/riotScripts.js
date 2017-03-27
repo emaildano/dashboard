@@ -6,8 +6,7 @@
 module.exports = function() {
 
   var riot = require('riot');
-  var tags_dir = './../../../app/tags/';
-  require( tags_dir + 'projects.tag');
+  require('./../../../app/tags/projects.tag');
   riot.mount('projects');
 
 };
