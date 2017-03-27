@@ -11,7 +11,7 @@
                             <a href="/">Home</a>
                         </li>
                         <li class="active">
-                            <strong>Project List yoooo</strong>
+                            <strong>Project List</strong>
                         </li>
                     </ol>
                 </div>

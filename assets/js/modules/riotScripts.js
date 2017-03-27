@@ -30,10 +30,10 @@ module.exports = function() {
   require('./../../../app/tags/reset-password.tag');
   require('./../../../app/tags/resource-monitor.tag');
   require('./../../../app/tags/roadmap.tag');
-  require('./../../../app/tags/sidebar.tag');
   require('./../../../app/tags/sparkline-demo.tag');
   require('./../../../app/tags/userinfo-activation.tag');
   require('./../../../app/tags/withdrawal.tag');
+  // require('./../../../app/tags/sidebar.tag');
 
   riot.mount('*');
 

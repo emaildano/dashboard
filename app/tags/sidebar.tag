@@ -83,7 +83,6 @@
             </div>
         </nav>
 
-
         switch (riot.router.current.uri){
           case '/account':
             this.is_account = true
@@ -110,7 +109,7 @@
             this.is_domains = true
             break
         }
-        
+
         support(e) {
           var childWindow = window.open('about:blank')
           post(endpoint.support, {pathto: e.target.dataset.href}).then(function(response){
