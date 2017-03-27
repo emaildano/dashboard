@@ -339,7 +339,7 @@ gulp.task('serve', ['watch_bundle', 'build_sass'], function(){
   gulp.watch([base.img], ['build_images']);
   gulp.watch('**/*.php', ['watch_reload']);
   gulp.watch('**/*.html', ['watch_reload']);
-  gulp.watch(['./tags/**/*.tag'], ['build_tags']);
+  gulp.watch('./app/tags/**/*.tag', ['build_bundle']);
 });
 
 
