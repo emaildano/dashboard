@@ -22,7 +22,6 @@ $fa-font-path: '/dist/fonts' !default; // FontAwesome
 @import '../../../node_modules/sweetalert/dist/sweetalert';
 @import '../../../node_modules/ladda/css/ladda';
 @import '../../../node_modules/X-editable/dist/jqueryui-editable/css/jqueryui-editable';
-// @import '../../../node_modules/jquery-ui-browserify/themes/base/jquery.ui.all';
 @import '../../../node_modules/dropzone/dist/dropzone';
 @import '../../../node_modules/dropzone/dist/basic';
 
@@ -81,3 +80,12 @@ $fa-font-path: '/dist/fonts' !default; // FontAwesome
 //     margin: 0;
 //   }
 // }
+
+
+.navbar-default {
+  background-color: transparent;
+  border-color: #2f4050;
+  z-index: 2001;
+  position: absolute;
+  width: 220px;
+}

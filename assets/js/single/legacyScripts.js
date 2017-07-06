@@ -113,7 +113,7 @@ function get(endpoint) {
 }
 
 function post(endpoint, body) {
-  var body = body === undefined ? {} : body;
+  // var body = body === undefined ? {} : body;
 
   return new Promise(function(resolve, reject) {
     request.post(endpoint)
@@ -129,7 +129,7 @@ function post(endpoint, body) {
 }
 
 function put(endpoint, body) {
-  var body = body === undefined ? {} : body;
+  // var body = body === undefined ? {} : body;
   return new Promise(function(resolve, reject) {
     request.put(endpoint)
       .set('Authorization', session_id)
@@ -144,7 +144,7 @@ function put(endpoint, body) {
 }
 
 function del(endpoint, body) {
-  var body = body === undefined ? {} : body;
+  // var body = body === undefined ? {} : body;
 
   return new Promise(function(resolve, reject) {
     request.del(endpoint)
