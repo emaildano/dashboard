@@ -32,11 +32,11 @@ $fa-font-path: '/dist/fonts' !default; // FontAwesome
 
 // // Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
-//
-// // Variables, Mixins
+
+// Variables, Mixins
 @import '../partials/variables';
 @import '../partials/mixins';
-//
+
 // // INSPINIA Theme Elements
 @import '../partials/typography';
 @import '../partials/navigation';

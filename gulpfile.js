@@ -5,7 +5,6 @@
 var devUrl = '127.0.0.1:9000';
 
 
-
 /**
  * NPM MODULES
  *
@@ -31,8 +30,8 @@ var rev = require('gulp-rev');
 var mediaQuery = require('gulp-group-css-media-queries');
 var babelify = require('babelify');
 
-// var riot    = require('gulp-riot');
-var riotify = require('riotify');
+var riot    = require('gulp-riot');
+// var riotify = require('riotify');
 
 
 /**
@@ -187,9 +186,6 @@ var b = function() {
     cache: {},
     paths: ['./node_modules', base.js.modules]
   }).transform(
-    riotify, {
-      // Options
-    },
     babelify, {
       presets: ['es2015'],
       compact: false
@@ -212,7 +208,7 @@ function bundle(pkg) {
     .pipe( buffer() )
     .pipe( $if( !production, $p.plumber() ) )
     .pipe( $if( !production, maps.init( {loadMaps: true} ) ) )
-      .pipe( $if( production, $p.uglify() ) )
+    .pipe( $if( production, $p.uglify() ) )
     .pipe( $if( !production, maps.write('.') ) )
     .pipe( gulp.dest(dest.js.all) )
     .pipe( browsersync.stream( {once: true} ) );
@@ -308,6 +304,11 @@ gulp.task('copy_fonts', function () {
 });
 
 
+gulp.task('riot', function() {
+  gulp.src('./app/tags/**/*.tag')
+    .pipe(riot())
+    .pipe(gulp.dest('dest'));
+});
 
 
 
